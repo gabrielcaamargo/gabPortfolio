@@ -1,3 +1,4 @@
+import About from '../../components/About';
 import Header from '../../components/Header';
 import Presentation from '../../components/Presentation';
 import { Container, Main } from './styles';
@@ -8,6 +9,7 @@ export default function Home() {
 			<Header />
 			<Main>
 				<Presentation />
+				<About />
 			</Main>
 		</Container>
 	);

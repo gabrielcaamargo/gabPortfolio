@@ -7,14 +7,13 @@ export default function Presentation() {
 		<Container>
 			<Title>Gabriel Camargo</Title>
 			<Description>
-				<li>Frontend Developer</li>
-				<li>UI Designer</li>
+				<p>Frontend Developer</p>
 			</Description>
 
-			<Scroll>
+			{/* <Scroll>
 				<BsMouse size={32}/>
 				<BsArrowDown size={24} id="scrollArrow" />
-			</Scroll>
+			</Scroll> */}
 
 		</Container>
 	);

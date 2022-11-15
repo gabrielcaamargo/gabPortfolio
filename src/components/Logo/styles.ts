@@ -1,14 +1,12 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-line-height: 26px;
-font-size: 42px;
+  line-height: 24px;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -3px;
 
-  span {
-    color: ${({theme}) => theme.colors.blue.main};
-    display: block;
-    font-family: "Merriweather", serif;
-    font-style: italic;
-    margin-left: 16px;
+  strong {
+    font-weight: 700;
   }
 `;
