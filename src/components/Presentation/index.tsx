@@ -1,6 +1,4 @@
-import { Container, Description, Scroll, Title } from './styles';
-
-import { BsMouse, BsArrowDown } from 'react-icons/bs';
+import { Container, Description, Title } from './styles';
 
 export default function Presentation() {
 	return (
@@ -9,12 +7,6 @@ export default function Presentation() {
 			<Description>
 				<p>Frontend Developer</p>
 			</Description>
-
-			{/* <Scroll>
-				<BsMouse size={32}/>
-				<BsArrowDown size={24} id="scrollArrow" />
-			</Scroll> */}
-
 		</Container>
 	);
 }

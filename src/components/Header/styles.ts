@@ -6,7 +6,7 @@ export const Container = styled.header`
   align-items: center;
   padding: 16px 48px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-
+  position: sticky;
   button {
     background: none;
     border: none;
