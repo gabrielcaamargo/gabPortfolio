@@ -11,6 +11,5 @@ export default function Header() {
 				<img src={Menu} alt="" />
 			</button>
 		</Container>
-
 	);
 }

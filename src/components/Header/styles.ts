@@ -7,6 +7,8 @@ export const Container = styled.header`
   padding: 16px 48px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: sticky;
+  top: 0;
+  background: ${({theme}) => theme.background};
   button {
     background: none;
     border: none;

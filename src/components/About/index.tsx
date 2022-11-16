@@ -17,7 +17,7 @@ export default function About() {
 					<small>Satisfaction</small>
 				</div>
 				<div>
-					<p>3500</p>
+					<p>5200+</p>
 					<small>Code lines written</small>
 				</div>
 			</Experience>

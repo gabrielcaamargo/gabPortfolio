@@ -20,10 +20,10 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    margin: 356px auto;
-
+    margin: 348px auto;
+    padding: 16px 24px;
     p {
-      font-size: 26px;
+      font-size: 22px;
     }
   }
 `;

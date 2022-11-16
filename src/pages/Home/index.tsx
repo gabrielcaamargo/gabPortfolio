@@ -1,7 +1,8 @@
-import About from '../../components/About';
-import EffectPhrase from '../../components/EffectPhrase';
 import Header from '../../components/Header';
 import Presentation from '../../components/Presentation';
+import About from '../../components/About';
+import Career from '../../components/Career';
+import EffectPhrase from '../../components/EffectPhrase';
 import { Container, Main } from './styles';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
 				<Presentation />
 				<About />
 				<EffectPhrase />
+				<Career />
 			</Main>
 		</Container>
 	);
