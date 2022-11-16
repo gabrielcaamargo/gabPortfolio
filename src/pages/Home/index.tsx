@@ -4,6 +4,7 @@ import About from '../../components/About';
 import Career from '../../components/Career';
 import EffectPhrase from '../../components/EffectPhrase';
 import { Container, Main } from './styles';
+import Skills from '../../components/Skills';
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 				<About />
 				<EffectPhrase />
 				<Career />
+				<Skills />
 			</Main>
 		</Container>
 	);
